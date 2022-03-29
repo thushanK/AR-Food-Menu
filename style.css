@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: o;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    background-color: #1e1e1e;
+}
+
+.card {
+    width: 320px;
+    height: 400px;
+    background-color: #fefee2;
+    border-radius: 1rem;
+    padding: 4rem 2rem 0;
+    
+}
+
+.image {
+    position: absolute;
+    width: 350px;
+    filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, .2));
+    transform: translate(-1.7rem, -8.5rem);
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #ff0099;
+    margin-bottom: .4rem;
+}
+
+.data {
+    transform: translateY(4.8rem);
+}
+
+.price {
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.checked {
+    color: orange;
+    margin-bottom: 1.25rem;
+}
+
+.review {
+    text-decoration: none;
+    color: grey;
+}
+
+.button {
+    display: block;
+    width: max-content;
+    padding: 1.125rem 2rem;
+    background-color: #ff0099;
+    color: #fff;
+    border-radius: .5rem;
+    font-weight: 600;
+}
